@@ -1,0 +1,48 @@
+/* universal selector affects all classes in document */
+* {
+    /* mainly used for the attribute: "box sizing: border-box;" */
+    box-sizing: border-box;
+    font-size: 10vh
+}
+
+/* affects all things in h1 - tag selector*/ 
+h1{
+    color:paleturquoise; 
+}
+
+h2{
+    font-family:Georgia, 'Times New Roman', Times, serif; 
+    background: blueviolet;
+    text-align: center;
+    text-decoration: line-through;
+    border-style:dotted; 
+}
+/* affects all things in container class - calss selector*/
+    /* can share classes, class = just put two classes (no commas) */
+.container{
+    background-color: blueviolet;
+    font-style: oblique;    
+}
+
+/* affects only one thing with this id, which means id are specific to each element */
+/* id priority is before class, then tag, then universal */
+#text {
+    color:rgb(5, 3, 1)
+}
+
+.parent{
+    width: 30px; 
+    height: 30px;
+    background-color: red;
+    position:relative; 
+    left: 100px
+}
+
+.child{
+    width:10px;
+    height: 10px; 
+    background-color: black;
+    /* means it is sticking to its parent div */
+    position: absolute; 
+    right: 10px
+}
