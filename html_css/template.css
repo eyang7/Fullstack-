@@ -1,0 +1,40 @@
+.header {
+    text-align: center; 
+    position: relative; 
+}
+
+.contact {
+    text-align: center; 
+}
+.navbar {
+    background-color: black;
+    overflow: hidden;
+}
+
+
+.home a:hover {
+    background-color: darkgreen; 
+}
+
+.nav {
+    display: flex; 
+    flex-direction: row;
+}
+/* style links inside the navbar */
+.nav a {
+    padding: 5px; 
+}
+
+.home a {
+    padding: 10px; 
+}
+
+/* different color */
+#home a:hover {
+    background-color: darkgreen; 
+}
+
+.nav a:hover {
+    background-color: lightblue;
+}
+
