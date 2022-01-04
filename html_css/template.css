@@ -1,11 +1,4 @@
-.header {
-    text-align: center; 
-    position: relative; 
-}
 
-.contact {
-    text-align: center; 
-}
 
 /* Overall navigation bar */
 .navbar {
@@ -13,17 +6,23 @@
     justify-content: space-between;
     background-color: black;
     overflow: hidden;
+    position: relative; 
 }
 
-
+.sidebar .nav {
+    display: inline; 
+}
 /* style links inside the navbar */
-.nav a {
+.sidebar .nav a {
+    font-weight: normal; 
+    font-size: 15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; 
     padding: 5px; 
     text-decoration: none;
     color: white; 
 }
 
-.nav a:hover, a:active {
+.sidebar .nav a:hover, a:active {
     text-decoration: none;
     font-weight: bold; 
     text-shadow: 0 0 5px aquamarine;
@@ -35,16 +34,12 @@
 }
 
 
-.home a {
-    padding: 10px; 
+/* Sidebar decoration */
+.sidebar a {
+    font-size: large;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    font-weight: bold; 
 }
-
-/* different color */
-.home a:hover {
-    background-color: darkgreen; 
-}
-
-
 
 /* icons on the side of navbar  */
 /* src: https://codepen.io/ephs23/pen/NeQZGx */
@@ -72,7 +67,7 @@
   }
   
 .navimgs a .icon {
-    position: fixed;
+    position:fixed;
     color: rgb(99, 99, 99); 
     transition: .5s;
     z-index: 3;
@@ -113,3 +108,10 @@
     background: lightblue;
 }
 
+
+
+/* homepage contents */
+
+.homepage .title{
+    text-align: center;
+}
