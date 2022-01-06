@@ -8,9 +8,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter&display=block');
+    </style>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="./template.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <title>Erik Yang</title>
 </head>
 <body>
@@ -24,16 +27,16 @@
         
         <span class="nav">  
             <!-- Homepage -->
-            <a href = "file:///C:/Users/yangf/Desktop/fullstack/Fullstack-/html_css/portfolio.html"> Home </a>
+            <a class = "nav" href = "file:///C:/Users/yangf/Desktop/fullstack/Fullstack-/html_css/portfolio.html"> Home </a>
 
             <!-- About -->
-            <a href = "file:///C:/Users/yangf/Desktop/fullstack/Fullstack-/html_css/portfolio.html" > About </a>
+            <!-- <a href = "file:///C:/Users/yangf/Desktop/fullstack/Fullstack-/html_css/portfolio.html" > About </a> -->
 
             <!-- Education -->
-            <a href = "file:///C:/Users/yangf/Desktop/fullstack/Fullstack-/html_css/portfolio.html" > Education </a>
+            <!-- <a href = "file:///C:/Users/yangf/Desktop/fullstack/Fullstack-/html_css/portfolio.html" > Education </a> -->
 
             <!-- Experience -->
-            <a href = "file:///C:/Users/yangf/Desktop/fullstack/Fullstack-/html_css/portfolio.html" > Experience </a>
+            <!-- <a href = "file:///C:/Users/yangf/Desktop/fullstack/Fullstack-/html_css/portfolio.html" > Experience </a> -->
 
         </span>
         </div>
@@ -60,15 +63,26 @@
         <h5 class = "contact"> 916-385-3960 // eyang7@berkeley.edu </h5>
     </div> -->
 
-    <br> 
 
-
+    <!-- fix font family so when refresh, doesn't reset -->
+    <!-- when resize, it does so properly (use percentages) -->
     <div class = "homepage"> 
+        <br> 
         <div class = "title"> 
             <h1> Erik Yang </h1>
         </div>
+        <div class = "welcome">
+            <h4> Welcome to my website! I hope you enjoy the experience.</h4>
+        </div>
+        <div class = "btn-learnmore">
+            <a class = "btn-learn" href = "#">Learn more →</a>
+        </div>
     </div>
-
+    
+    <!-- follows learn more -->
+    <div class = "shortbio">
+        <h3> About Me</h3>
+    </div>
     <!-- About -->
         <!-- 1. biography -->
         <!-- 2. spotify? -->
